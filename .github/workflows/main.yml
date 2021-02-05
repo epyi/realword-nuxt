@@ -56,5 +56,5 @@ jobs:
           cd /root/realworld-nuxtjs
           wget https://github.com/epyi/realword-nuxt/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
-          yarn install --production
+          npm install --production
           pm2 reload pm2.config.json
